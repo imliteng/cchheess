@@ -7,6 +7,7 @@
 //
 
 #import "FCViewController.h"
+#import "FCChessConmandAnalyze.h"
 
 @interface FCViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    FCChessConmandAnalyze* test=[[FCChessConmandAnalyze alloc] init];
+    if([test verificationCommandCorrect:@"兵二退一"])
+        NSLog(@"ok");
 }
 
 - (void)didReceiveMemoryWarning

@@ -21,6 +21,7 @@
 		04139E2C192A11120059FFD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04139E0E192A11120059FFD8 /* UIKit.framework */; };
 		04139E34192A11120059FFD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04139E32192A11120059FFD8 /* InfoPlist.strings */; };
 		04139E36192A11120059FFD8 /* FantasticChessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04139E35192A11120059FFD8 /* FantasticChessTests.m */; };
+		0414454D192AF1EE00321477 /* FCChessConmandAnalyze.m in Sources */ = {isa = PBXBuildFile; fileRef = 0414454C192AF1EE00321477 /* FCChessConmandAnalyze.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		04139E31192A11120059FFD8 /* FantasticChessTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FantasticChessTests-Info.plist"; sourceTree = "<group>"; };
 		04139E33192A11120059FFD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04139E35192A11120059FFD8 /* FantasticChessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FantasticChessTests.m; sourceTree = "<group>"; };
+		0414454B192AF1EE00321477 /* FCChessConmandAnalyze.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCChessConmandAnalyze.h; sourceTree = "<group>"; };
+		0414454C192AF1EE00321477 /* FCChessConmandAnalyze.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCChessConmandAnalyze.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				04139E1C192A11120059FFD8 /* Main.storyboard */,
 				04139E1F192A11120059FFD8 /* FCViewController.h */,
 				04139E20192A11120059FFD8 /* FCViewController.m */,
+				0414454B192AF1EE00321477 /* FCChessConmandAnalyze.h */,
+				0414454C192AF1EE00321477 /* FCChessConmandAnalyze.m */,
 				04139E22192A11120059FFD8 /* Images.xcassets */,
 				04139E11192A11120059FFD8 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04139E17192A11120059FFD8 /* main.m in Sources */,
+				0414454D192AF1EE00321477 /* FCChessConmandAnalyze.m in Sources */,
 				04139E1B192A11120059FFD8 /* FCAppDelegate.m in Sources */,
 				04139E21192A11120059FFD8 /* FCViewController.m in Sources */,
 			);
@@ -459,6 +465,7 @@
 				04139E3B192A11120059FFD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04139E3C192A11120059FFD8 /* Build configuration list for PBXNativeTarget "FantasticChessTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +474,7 @@
 				04139E3E192A11120059FFD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
