@@ -20,8 +20,11 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     FCChessConmandAnalyze* test=[[FCChessConmandAnalyze alloc] init];
-    if([test verificationCommandCorrect:@"兵二退一"])
+    if([test verificationCommandCorrect:@"马二平一"])
         NSLog(@"ok");
+    
+    [test initChesspieceRule];
+    
 }
 
 - (void)didReceiveMemoryWarning

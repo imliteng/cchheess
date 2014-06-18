@@ -22,6 +22,7 @@
 		04139E34192A11120059FFD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04139E32192A11120059FFD8 /* InfoPlist.strings */; };
 		04139E36192A11120059FFD8 /* FantasticChessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04139E35192A11120059FFD8 /* FantasticChessTests.m */; };
 		0414454D192AF1EE00321477 /* FCChessConmandAnalyze.m in Sources */ = {isa = PBXBuildFile; fileRef = 0414454C192AF1EE00321477 /* FCChessConmandAnalyze.m */; };
+		041B1A6A193DBD82002F201D /* FCChessPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B1A69193DBD82002F201D /* FCChessPiece.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		04139E35192A11120059FFD8 /* FantasticChessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FantasticChessTests.m; sourceTree = "<group>"; };
 		0414454B192AF1EE00321477 /* FCChessConmandAnalyze.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCChessConmandAnalyze.h; sourceTree = "<group>"; };
 		0414454C192AF1EE00321477 /* FCChessConmandAnalyze.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCChessConmandAnalyze.m; sourceTree = "<group>"; };
+		041B1A68193DBD82002F201D /* FCChessPiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCChessPiece.h; sourceTree = "<group>"; };
+		041B1A69193DBD82002F201D /* FCChessPiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCChessPiece.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				04139E20192A11120059FFD8 /* FCViewController.m */,
 				0414454B192AF1EE00321477 /* FCChessConmandAnalyze.h */,
 				0414454C192AF1EE00321477 /* FCChessConmandAnalyze.m */,
+				041B1A68193DBD82002F201D /* FCChessPiece.h */,
+				041B1A69193DBD82002F201D /* FCChessPiece.m */,
 				04139E22192A11120059FFD8 /* Images.xcassets */,
 				04139E11192A11120059FFD8 /* Supporting Files */,
 			);
@@ -256,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04139E17192A11120059FFD8 /* main.m in Sources */,
+				041B1A6A193DBD82002F201D /* FCChessPiece.m in Sources */,
 				0414454D192AF1EE00321477 /* FCChessConmandAnalyze.m in Sources */,
 				04139E1B192A11120059FFD8 /* FCAppDelegate.m in Sources */,
 				04139E21192A11120059FFD8 /* FCViewController.m in Sources */,

@@ -21,7 +21,12 @@
 @property(nonatomic,strong)NSArray *range8;
 @property(nonatomic,strong)NSArray *range9;
 @property(nonatomic,strong)NSArray *range0;
+@property(nonatomic,strong)NSArray *range10;
+
+@property(nonatomic,strong)NSMutableArray * chessPieceRule;
 
 -(BOOL)verificationCommandCorrect:(NSString*)cmdStr;
+
+-(void)initChesspieceRule;
 
 @end
